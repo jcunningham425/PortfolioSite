@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Joe Cunningham</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css">
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/grids-responsive-min.css">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+</head>
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('.profpic').click(function(){
+            $('.skills').removeClass("hidden");
+        });
+    });
+</script>
+<body>
+    <div class="header">
+        <ul class="right">
+            <li class="inline"><a href="#block1" class="links">Home</a></li>
+            <li class="inline"><a href="#block2" class="links">About</a></li>
+            <li class="inline"><a href="#block3" class="links">Services</a></li>
+            <li class="inline"><a href="#block4" class="links">Portfolio</a></li>
+            <li class="inline"><a href="#block5" class="links">Contact</a></li>
+        </ul>
+
+    </div>
+
+    <div class="scroll">
+        <div class="block block1" id="block1">
+            <div class="name">Joe Cunningham</div>
+            <div class="name">Freelance Web Developer & Designer</div>
+        </div>
+        <div class="block block2" id="block2">
+            <div>
+                <img src="images/ProfPic.jpg" class="profpic"/>
+            </div>
+
+            <div class="skills hidden">
+                Skills:
+                        <ol>HTML5</ol>
+                        <ol>CSS</ol>
+                        <ol>Javascript</ol>
+                        <ol>Jquery</ol>
+                        <ol>Photoshop</ol>
+
+            </div>
+
+            <div class="text info1">
+                <h1>Welcome To My Site!</h1>
+            </div>
+
+        </div>
+        <div class="block block3" id="block3"></div>
+        <div class="block block4" id="block4">
+
+            <div class="text info2">
+                <h1>Skills:</h1>
+            </div>
+
+            <div class="text info3">
+
+            </div>
+
+        </div>
+        <div class="block block5" id="block5"></div>
+
+    </div>
+
+
+</body>
+</html>
+        

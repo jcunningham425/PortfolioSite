@@ -1,0 +1,134 @@
+.header{
+    background-color: whitesmoke;
+    position:fixed;
+    height:50px;
+    width:100%;
+    top:0;
+    z-index: 99;
+}
+
+.scroll{
+    background-color: bisque;
+    position:absolute;
+    top:50px;
+    bottom:0;
+    width:100%;
+}
+
+.block{
+    height:100%;
+    width: 100%;
+}
+
+.block1{
+    background-image: url("images/skyline2.jpg");
+    background-repeat: no-repeat;
+    background-position:center;
+}
+
+.block2 {
+    background-image: url("images/Bean.jpg");
+    background-repeat: no-repeat;
+    background-position:center;
+}
+
+.block3{
+    background-image: url("images/ChiFlag.jpg");
+    background-size:50%;
+    background-position: center;
+}
+
+.block4{
+    background-image: url("images/ChiLights.jpg");
+    background-size: 100%;
+
+}
+
+.block5{
+    background-image: url("images/records.jpg");
+    background-size: 95%;
+    background-position: center;
+
+}
+
+.right{
+    float:right;
+}
+
+.links{
+    margin-right: 20px;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+.inline {
+    display: inline;
+}
+
+.name{
+    font-family: "Helvecta", serif;
+    font-size: 50px;
+    margin:auto;
+    text-align: center;
+    color:aliceblue;
+}
+
+.profpic{
+    position:absolute;
+    height: 400px;
+    width: 300px;
+    border: 15px solid black;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.skills{
+    height: 350px;
+    width: 500px;
+    color: white;
+    margin-bottom: 500px;
+    margin-left: 500px;
+
+
+}
+
+.hidden{
+    display:none; !important
+
+}
+
+.text{
+    background-color:rgba(255,255,255,.8);
+    border:1px;
+    color: black;
+    line-height: 1.44;
+    padding:3%;
+    border-radius:8px;
+
+}
+
+.info1{
+    position:absolute;
+    width:45%;
+    height:60%;
+    margin-top: 100px;
+    margin-left: 600px;
+}
+
+.info2{
+    position:absolute;
+    width:25%;
+    height:60%;
+    margin-top:100px;
+    margin-left: 160px;
+}
+
+.info3{
+    position:absolute;
+    width: 40%;
+    height:60%;
+    margin-top:100px;
+    margin-left:710px;
+
+
+}
